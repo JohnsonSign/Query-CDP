@@ -10,7 +10,7 @@ dynamics information. To alleviate this, a decoupled spatio-temporal prediction 
 timestamps of the target sequence explicitly.
 
 # Installation
-The code is tested with Python 3.7.12, PyTorch 1.7.1, GCC 9.4.0, and CUDA 10.2. Compile the CUDA layers for PointNet++:
+The code is tested with Python 3.7.12, PyTorch 1.7.1, GCC 9.4.0, and CUDA 10.2. Compile the CUDA layers for PointNet++: https://arxiv.org/abs/1706.02413
 
 cd modules
 
