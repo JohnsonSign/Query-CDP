@@ -12,24 +12,26 @@ timestamps of the target sequence explicitly.
 # Installation
 The code is tested with Python 3.7.12, PyTorch 1.7.1, GCC 9.4.0, and CUDA 10.2. Compile the CUDA layers for PointNet++: https://arxiv.org/abs/1706.02413
 
+First, you should install the corresponding python and pytorch. And then, compile the environment as follows.
+
 cd modules
 
 python setup.py install
 
 # The steps for performing the experiments
 
-(1) pretraining: python 0-pretrain-msr.py
+pretraining: python 0-pretrain-msr.py
 
 
-(2) Finetuning: python main-msr.py
+Finetuning: python main-msr.py
 
 # Datasets
 
-MSRAction 3D 
+MSRAction 3D: https://wangjiangb.github.io/my_data.html
 
-NTU RGB-D
+NTU RGB-D: https://wangjiangb.github.io/my_data.html
 
-Synthia 4D
+Synthia 4D: https://synthia-dataset.net/
 
 Please refer to the related repositories for downloading these datasets.
 
